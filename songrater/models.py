@@ -1,5 +1,5 @@
 from pyexpat import model
-from tkinter import CASCADE
+from django.db.models.deletion import CASCADE
 from turtle import mode
 from django.db import models
 
