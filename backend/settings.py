@@ -66,7 +66,9 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'https://localhost:3000',
-    'http://localhost:3000'
+    'http://localhost:3000',
+    'https://comp333-songrater.web.app',
+    'https://console.firebase.google.com/project/comp333-songrater/overview'
 ]
 
 REST_FRAMEWORK = {
